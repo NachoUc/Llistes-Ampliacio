@@ -1,0 +1,15 @@
+.galeria {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+.galeria li {
+    display: inline-block;
+}
+.galeria img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
